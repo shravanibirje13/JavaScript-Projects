@@ -1,1 +1,50 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>To-do List</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="listBox" class="header">
+
+            <h2>My To Do List</h2>
+
+            <input type="text" id="item" placeholder="Title..." />
+
+            <span onclick="newElement()" class="addBtn">Add</span>
+
+        </div>
+
+
+        <ul id="list">
+
+            <li>Kick Boxing</li>
+
+            <li class="checked">Homework</li>
+
+            <li>Walking</li>
+
+            <li>Read a book</li>
+
+        </ul>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
